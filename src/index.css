@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: medium;
+}
+
+#special-card img {
+  object-fit: cover;
+  max-height: 390px;
+}
+
+/* the color of the footer*/
+#footer-box {
+  background-color: #212433;
+}
+
+/* Color of the buttons */
+.btn {
+  background-color: #212433;
+}
+
+.btn-floating {
+  background-color: #212433;
+}
+
+/* the background color of the projects page */
+.projectHeader {
+  background-color: #212433;
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+
+/* the sizing of the projects divs */
+div.parallax-container {
+  width: 100%;
+  height: 700px;
+}
+
+div.parallax-container div.parallax img {
+  width: 100%;
+}
+
+/* the background image */
+.homepage {
+  background-image: url(./shuttle.jpg);
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+  background-size: cover;
+}
+
+.card-content {
+  opacity: 50%;
+}
+
+/* special style for the sidenav */
+
+ul.side-nav li a {
+  color: white !important;
+  width: 100%;
+}
+ul.side-nav {
+  background-color: #212433;
+}
+
+ul.side-nav li a.subheader {
+  background-color: white;
+  color: #212433 !important;
+  font-weight: bold !important;
+  font-size: large !important;
+}
+
+.userView {
+  min-height: 300px;
+  min-width: 300px;
+  display: contain;
+}
+
+div.userView a span {
+  color: white !important;
+  font-size: large !important;
+  font-weight: bold !important;
+  position: relative;
+  top: 10em;
+  margin-top: 10px;
+}
+
+/* special Navbar styling */
+
+ul#nav-movile a {
+  font-size: large !important;
+}
