@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Projects from './components/Projects';
 import Homepage from './components/Homepage';
-import { Footer } from 'react-materialize';
+import { Footer, Navbar, NavItem } from 'react-materialize';
 import { Switch, Route } from 'react-router';
 import { NavLink, withRouter } from 'react-router-dom';
 import './index.css';
@@ -12,12 +12,15 @@ class App extends Component {
       <div className="App">
         <nav style={{ backgroundColor: '#212433' }}>
           <div className="nav-wrapper">
-            <img
-              className="right"
-              src="img/signature.png"
-              alt="abe's personal signature"
-              style={{ maxHeight: '100%', paddingTop: '5px' }}
-            />
+            <NavLink to="/">
+              <img
+                className="right"
+                src="img/signature.png"
+                alt="abe's personal signature"
+                style={{ maxHeight: '100%', paddingTop: '5px' }}
+              />
+            </NavLink>
+
             <ul id="nav-mobile" className="left hide-on-med-and-down">
               <li>
                 <NavLink to="/">Home</NavLink>

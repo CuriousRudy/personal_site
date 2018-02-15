@@ -24,14 +24,17 @@ const Projects = props => {
         imageSrc="img/eventspace.jpeg"
       />
       <div className="section row projectHeader" style={{ height: '350px' }}>
-        <div className="col l6 s12 ">
+        <div className="col l6 s12 offset-l3">
           <div>
             <div className="row">
               <div className="col s6">
                 <h4 className="header">eventSpace</h4>
               </div>
-              <div className="col s4 offset-s2">
-                <p>Demo credentials:</p>
+              <div className="col s6 ">
+                <p>
+                  Demo credentials: <br />user: aberudy@gmail.com <br /> pw:
+                  passcode
+                </p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -49,9 +52,6 @@ const Projects = props => {
               integrated chat to keep in touch with all invitees.
             </p>
           </div>
-        </div>
-        <div className="col s12 l4 offset-l2">
-          <h5>this is the video!</h5>
         </div>
       </div>
       <div className="hide-on-large-only">
@@ -71,9 +71,26 @@ const Projects = props => {
         className="section row projectHeader"
         style={{ marginTop: '-10px', height: '350px' }}
       >
-        <div className="col l6 s12 offset-l2">
-          <div className="">
-            <h4 className="right">orbitManager</h4>
+        <div className="col l6 s12 offset-l3">
+          <div className="row">
+            <div className="col s6 l6">
+              <p>
+                Demo credentials:
+                <br />
+                user: aberudy@gmail.com / pw: 1234
+              </p>
+            </div>
+            <div className="col l6 s6">
+              <h4 className="right">orbitManager</h4>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://orbitmanager-71408.firebaseapp.com"
+              >
+                Take 'er for a test-drive!'
+              </a>
+            </div>
+
             <p className="white-text  right">
               A customizable companion app for scheduling groups to play
               Bungie's Sci-Fi Shooter, Destiny 2. Use the build in forums to
@@ -81,18 +98,7 @@ const Projects = props => {
               powerful enemies. Clans provide a good way to show your colors,
               and keep in touch with friends!
             </p>
-            <p>Demo credentials:</p>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://orbitmanager-71408.firebaseapp.com"
-            >
-              Take 'er for a test-drive!'
-            </a>
           </div>
-        </div>
-        <div className="col s12 l4">
-          <h5>this is the video!</h5>
         </div>
       </div>
       <div className="hide-on-large-only">
@@ -114,12 +120,7 @@ const Projects = props => {
             <div className="col s6 l6">
               <h4>hausHuntr</h4>
             </div>
-            <div className="col s4 offset-s2">
-              <p>Demo credentials:</p>
-              <a target="_blank" href="">
-                Link Coming Soon
-              </a>
-            </div>
+            <div className="col s4 offset-s2" />
           </div>
 
           <p className="white-text">
@@ -131,7 +132,7 @@ const Projects = props => {
           </p>
         </div>
         <div className="col s12 l4 offset-l2 projectHeader">
-          <h5>this is the video!</h5>
+          <h5>Video coming soon!</h5>
         </div>
       </div>
       <Parallax className="hide-on-small-only" imageSrc="img/image.jpg" />

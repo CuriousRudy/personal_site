@@ -30,7 +30,7 @@ class Homepage extends React.Component {
                 </div>
                 <div className="card-action">
                   <button className="btn" onClick={() => this.showMore()}>
-                    find out more!
+                    this is me
                   </button>
                 </div>
               </div>
@@ -51,10 +51,10 @@ class Homepage extends React.Component {
                   </h5>
                 </div>
                 <div className="card-action">
-                  <div style={{ width: '100%' }}>
+                  <div className="row">
                     <button
                       style={{ backgroundColor: '#212433' }}
-                      className="btn l3"
+                      className="btn l3 s3"
                       onClick={() => this.showMore()}
                     >
                       back
@@ -64,7 +64,7 @@ class Homepage extends React.Component {
                     <NavLink to="/projects">
                       <button
                         style={{ backgroundColor: '#212433' }}
-                        className="btn l5"
+                        className="btn l5 s5"
                       >
                         projects
                       </button>
