@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideNav, SideNavItem, Button } from 'react-materialize';
+import { SideNav, SideNavItem } from 'react-materialize';
 import '../index.css';
 
 const NavBar = () => {

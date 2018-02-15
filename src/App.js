@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Projects from './components/Projects';
 import Homepage from './components/Homepage';
-import { Footer, Navbar, NavItem } from 'react-materialize';
+import { Footer } from 'react-materialize';
 import { Switch, Route } from 'react-router';
 import { NavLink, withRouter } from 'react-router-dom';
 import './index.css';

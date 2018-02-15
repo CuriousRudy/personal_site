@@ -29,12 +29,6 @@ const Projects = props => {
             <div className="row">
               <div className="col s6">
                 <h4 className="header">eventSpace</h4>
-              </div>
-              <div className="col s6 ">
-                <p>
-                  Demo credentials: <br />user: aberudy@gmail.com <br /> pw:
-                  passcode
-                </p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -42,6 +36,12 @@ const Projects = props => {
                 >
                   Take 'er for a test-drive!'
                 </a>
+              </div>
+              <div className="col s6 ">
+                <p>
+                  Demo credentials: <br />user: aberudy@gmail.com <br /> pw:
+                  passcode
+                </p>
               </div>
             </div>
 
@@ -73,16 +73,17 @@ const Projects = props => {
       >
         <div className="col l6 s12 offset-l3">
           <div className="row">
-            <div className="col s6 l6">
+            <div className="col s6 l7">
               <p>
                 Demo credentials:
                 <br />
                 user: aberudy@gmail.com / pw: 1234
               </p>
             </div>
-            <div className="col l6 s6">
+            <div className="col l5 s6">
               <h4 className="right">orbitManager</h4>
               <a
+                className="right"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://orbitmanager-71408.firebaseapp.com"
