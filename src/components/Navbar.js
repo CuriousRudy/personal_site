@@ -6,7 +6,11 @@ const NavBar = () => {
   return (
     <SideNav
       trigger={
-        <button className="btn waves-effect waves-dark white-text  l4 s4" large>
+        <button
+          style={{ backgroundColor: '#212433' }}
+          className="btn waves-effect waves-dark white-text  l4 s4"
+          large
+        >
           Social Media
         </button>
       }

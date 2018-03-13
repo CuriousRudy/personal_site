@@ -29,7 +29,11 @@ class Homepage extends React.Component {
                   </h5>
                 </div>
                 <div className="card-action">
-                  <button className="btn" onClick={() => this.showMore()}>
+                  <button
+                    style={{ backgroundColor: '#212433' }}
+                    className="btn waves-effect waves-dark"
+                    onClick={() => this.showMore()}
+                  >
                     this is me
                   </button>
                 </div>
@@ -105,7 +109,7 @@ class Homepage extends React.Component {
                     grandiose shiny website built as a testament to my skill.
                     This is me, what I like, and what I've built. This is some
                     HTML mixed with the magic of CSS is just such a way that
-                    this box sits approximately 2-5 pixels lower on the page
+                    this box sits approximately 2-5 pixels higher on the page
                     than the one opposite, while the background is just slightly
                     off center. But you might not have noticed that. And that's
                     cool too.
